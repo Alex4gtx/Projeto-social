@@ -19,12 +19,12 @@ body {
 }
 
 main {
-    position: relative;
+    position: relative; /* relative, o elemento é posicionado em relação a si mesmo */
     height: 100vh;
 }
 
 section#telefone {
-    position: absolute;
+    position: absolute; /* absoluto tem sua posição relacionada com a de seu elemento pai */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
